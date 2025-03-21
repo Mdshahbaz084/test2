@@ -1,17 +1,16 @@
 {
-  "name": "Madrasa Sikariya",
-  "short_name": "Madrasa",
-  "description": "Welcome to Madrasa Sikariya - Darul Uloom Faizain-E-Tajushsharia Sikariya",
-  "start_url": "./index.html",
-  "scope": ".",
+  "name": "Web Push Notification Demo",
+  "short_name": "Push Demo",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#1a3a6d",
+  "theme_color": "#FF7A33",
   "icons": [
     {
-      "src": "./image/icon1.png",
-      "sizes": "512x512",
+      "src": "firebase-logo.png",
+      "sizes": "192x192",
       "type": "image/png"
     }
-  ]
-}
+  ],
+  "gcm_sender_id": "1066102927865"
+} 
